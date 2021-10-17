@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Document</title>
+    <style type="text">
+body {
+    background-image: url("https://www.skincareholic.net/wp-content/uploads/2021/07/shutterstock_1416346496_1024x1024.jpg");
+  }
+.container {
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+    input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+ 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+    </style>
+</head>
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+        <h2>Contact</h2>
+        <form action="/action_page.php">
+            <ul class="list-group">
+                <li class="list-group-item"> <label for="fname">Họ Và Tên</label>
+                    <li>
+                        <input type="text" id="name" name="name" placeholder="Nhập họ và tên...">
+                    </li>
+                </li>
+                <li class="list-group-item"> <label for="lname">Email</label>
+                    <li>
+                        <input type="text" id="email" name="email" placeholder="Nhập email...">
+                    </li>
+                </li>
+                <li class="list-group-item"><label for="country">Số Điện Thoại</label>
+                    <li>
+                        <input type="text" id="phone" name="phone" placeholder="Nhập số điện thoại...">
+                    </li>
+                </li>
+              </ul>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
